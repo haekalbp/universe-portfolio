@@ -21,3 +21,74 @@
 .c-50 {
     width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    .img-hidden {
+        display: none;
+    }
+
+    .font-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .margin-p {
+        margin: auto 0.625rem;
+    }
+
+    .font-7xl {
+        font-size: 4.5rem;
+        line-height: 1;
+    }
+
+    .font-xs {
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+
+    .font-base {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .font-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    .font-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+
+    .font-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+
+    .margin-p2 {
+        margin-top: 13rem;
+    }
+
+    .t-center {
+        text-align: center;
+    }
+
+    .f-col {
+        flex-direction: column;
+    }
+
+    .pad-bot {
+        padding-bottom: 2.5rem;
+    }
+
+    .mar-top {
+        margin-top: 2.5rem;
+    }
+
+    .pad-help {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+}
