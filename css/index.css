@@ -1,0 +1,23 @@
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-handwrite {
+    font-family: 'Courgette', cursive;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.c-80 {
+    width: 80%;
+}
+
+.c-65 {
+    width: 65%;
+}
+
+.c-50 {
+    width: 50%;
+}
