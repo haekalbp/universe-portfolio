@@ -10,6 +10,9 @@
     <!-- Web Logo -->
     <link rel="icon" href="img/superhero.png">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -33,16 +36,16 @@
     <header class="py-7">
         <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <div>
-                <a href="#" target="_blank" class="text-xl mx-6 margin-p"><i class="fab fa-twitter"></i></a>
-                <a href="https://instagram.com/haekal.bp?utm_medium=copy_link" target="_blank" class="text-xl mx-6 margin-p"><i class="fab fa-instagram"></i></a>
-                <a href="#" target="_blank" class="text-xl mx-6 margin-p"><i class="fab fa-dribbble"></i></a>
+                <a href="#" target="_blank" class="text-xl mx-6 margin-socmed"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/haekal.bp?utm_medium=copy_link" target="_blank" class="text-xl mx-6 margin-socmed"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" class="text-xl mx-6 margin-socmed"><i class="fab fa-dribbble"></i></a>
             </div>
             <div class="ml-7 img-hidden">
                 <a href="#"><img src="img/rocket.png" class="w-16" alt="Brand"></a>
             </div>
             <div class="font-bold">
-                <a href="#work" class="mx-6 text-xl font-sm">Work</a>
-                <a href="#hire" class="ml-3 text-xl font-sm bg-indigo-500 py-2 px-4 rounded-lg">Hire Me</a>
+                <a href="#work" class="mx-6 text-xl font-sm margin-menu">Work</a>
+                <a href="#hire" class="ml-3 text-xl font-sm bg-indigo-500 py-2 px-4 rounded-lg margin-menu">Hire Me</a>
             </div>
         </div>
     </header>
@@ -51,58 +54,58 @@
 
     <!-- Start Top Container -->
     <div class="container text-center mx-auto mt-40">
-            <h1 class="text-8xl font-handwrite font-bold font-7xl">I'm Haekal.</h1>
-            <p class="mt-4 text-lg font-base">a front-end developer.</p>
+            <h1 class="text-8xl font-handwrite font-bold font-6xl gsap-1">I'm Haekal.</h1>
+            <p class="mt-4 text-lg font-base gsap-1">a front-end developer.</p>
 
-            <img class="mt-32 inline-block img-hidden" src="img/space.png" alt="Astronaut">
+            <img class="mt-32 inline-block img-hidden gsap-2" src="img/space.png" alt="Astronaut">
     </div>
 
     <!-- End Top Container -->
 
-    <!-- Start Mid Container -->
-    <div class="c-80 rounded-3xl bg-neutral-800 text-center mx-auto mt-24 pb-16 margin-p2 pad-bot">
-        <img class="w-48 inline-block mt-12 mar-top" src="img/astronaut.png" alt="Brand">
+    <!-- Start "Hi" Container -->
+    <div class="c-80 rounded-3xl bg-neutral-800 text-center mx-auto mt-24 pb-16 margin-p2 pad-bot" data-aos="fade-up" data-aos-offset="230">
+        <img class="w-52 inline-block mt-12 mar-top img-w mt-hi" data-aos="fade-up" data-aos-offset="230" data-aos-delay="70" src="img/astronaut.png" alt="Brand">
 
-        <h1 class="text-4xl mt-12 font-3xl font-bold text-rose-600">Hi.</h1>
-        <p class="mt-10 font-sm">
+        <h1 class="text-4xl mt-12 font-3xl font-bold text-rose-600 mt-hi" data-aos="fade-up" data-aos-delay="85">Hi.</h1>
+        <p class="mt-10 font-sm mt-intro" data-aos="fade-up" data-aos-delay="100">
             I'm a web designer / developer based in Jakarta, Indonesia.<br class="img-hidden">
             I have a passion for web design and love to create for web and mobile devices.
         </p>
     </div>
-    <!-- End Mid Container -->
+    <!-- End "Hi" Container -->
 
-    <!-- Start Mid Container -->
-    <div class="c-65 bg-neutral-800 rounded-2xl text-center mx-auto mt-24 py-10">
+    <!-- Start "What I Can Do" Container -->
+    <div class="c-65 bg-neutral-800 rounded-2xl text-center mx-auto mt-24 py-10 pady" data-aos="fade-up">
         <h1 class="text-5xl font-4xl font-bold text-rose-600">What I can do.</h1>
     </div>
-    <div class="c-65 flex flex-row text-center mx-auto mt-20 gap-10 f-col mar-top">
-        <div class="basis-1/4 img-hidden"><img src="img/gun.png" alt=""></div>
+    <div class="c-65 flex flex-row text-center mx-auto mt-20 gap-10 f-col mar-top" data-aos="fade-right">
+        <div class="basis-1/4 img-hidden w-52"><img src="img/gun.png" alt=""></div>
         <div class="basis-3/4 text-left pt-12 t-center">
             <h1 class="text-xl font-lg font-bold text-rose-500">Design what you want.</h1><br>
             <p class="font-sm">I like to keep it simple. My goals are to focus on typography, content, and conveying the message that you want to send.</p>
         </div>
     </div>
-    <div class="c-65 flex flex-row text-center mx-auto mt-20 gap-10 f-col mar-top">
+    <div class="c-65 flex flex-row text-center mx-auto mt-20 gap-10 f-col mar-top" data-aos="fade-left">
         <div class="basis-3/4 text-right pt-12 t-center">
             <h1 class="text-xl font-lg font-bold text-rose-500">Develop what you need.</h1><br>
             <p class="font-sm">I'm a developer, so i know how to create your website to run across devices using the latest technologies available.</p>
         </div>
-        <div class="basis-1/4 img-hidden"><img src="img/gotcha.png" alt=""></div>
+        <div class="basis-1/4 img-hidden w-52"><img src="img/gotcha.png" alt=""></div>
     </div>
-    <!-- End Mid Container -->
+    <!-- End "What I Can Do" Container -->
 
-    <!-- Start Mid Container -->
-    <div class="c-50 bg-neutral-800 rounded-2xl text-center mx-auto mt-32 py-16 pad-help">
+    <!-- Start "I Can Help" Container -->
+    <div class="c-50 bg-neutral-800 rounded-2xl text-center mx-auto mt-32 py-16 pad-help" data-aos="fade-up">
         <h1 class="text-5xl font-4xl text-rose-600 font-bold">I can help.</h1>
         <h1 class="text-xl font-base mt-8 text-rose-700 font-bold">I'm currently available for freelance work.</h1>
     </div>
-    <div class="c-50 text-center mx-auto mt-4">
+    <div class="c-50 text-center mx-auto mt-4" data-aos="fade-up">
         <p class="font-sm">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
     </div>
-    <div class="c-50 text-center mx-auto mt-10">
-        <a href="#hire" class="mt-10 text-xl font-lg bg-indigo-700 py-2 px-5 rounded-lg uppercase"><i class="far fa-envelope"></i> message me</a>
+    <div class="c-50 text-center mx-auto mt-10" data-aos="zoom-in">
+        <a href="#hire" class="mt-10 text-xl font-lg bg-indigo-700 py-2 px-5 pad-button rounded-lg uppercase"><i class="far fa-envelope"></i> message me</a>
     </div>
-    <!-- End Mid Container -->
+    <!-- End "I Can Help" Container -->
 
     <!-- Start Footer -->
     <div class="container bg-neutral-800 text-center mx-auto mt-28 py-10">
@@ -110,7 +113,24 @@
     </div>
 
     <!-- End Footer -->
+
+
+    <!-- JavaScript -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true, // whether animation should happen only once - while scrolling down
+      });
+    </script>
     
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        gsap.from('.gsap-1', {opacity: 0, y: 50, duration: 0.75, ease: 'back'});
+        gsap.from('.gsap-2', {opacity: 0, y: 50, duration: 0.75, delay: 0.25, ease: 'back'});
+    </script>
     
 </body>
 </html>
