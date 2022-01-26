@@ -115,5 +115,13 @@
     .pad-button {
         padding: 0.25rem 0.4rem;
     }
+    
+    .c-65 {
+        width: 75%;
+    }
+
+    .c-50 {
+        width: 75%;
+    }
 
 }

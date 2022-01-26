@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web Logo -->
+    <link rel="icon" href="img/superhero.png">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/ba782f6ee1.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <title>Haekal BP | Web-Developer</title>
+
+</head>
+<body class="bg-neutral-900 font-montserrat text-white t-center">
+
+    <!-- Start Navbar -->
+    <header class="py-7">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div>
+                <a href="#" target="_blank" class="text-xl mx-6 margin-socmed hover:text-sky-600"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/haekal.bp?utm_medium=copy_link" target="_blank" class="text-xl mx-6 margin-socmed hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" class="text-xl mx-6 margin-socmed hover:text-pink-700"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <div class="ml-7 img-hidden">
+                <a href="index.html"><img src="img/rocket.png" class="w-16" alt="Brand"></a>
+            </div>
+            <div class="font-bold">
+                <a href="#work" class="mx-6 text-xl font-sm margin-menu hover:text-indigo-600">Work</a>
+                <a href="#hire" class="ml-3 text-xl font-sm bg-indigo-600 hover:bg-indigo-800 py-2 px-4 rounded-lg margin-menu">Hire Me</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- End Navbar -->
+
+    <!-- Start Container -->
+    
+
+    <!-- End Container -->
+
+    <!-- Start Footer -->
+    <div class="container bg-neutral-800 text-center mx-auto mt-28 py-10">
+        <p class="text-sm font-xs">© 2022 Haekal BP. All rights reserved.</p>
+    </div>
+
+    <!-- End Footer -->
+
+
+    <!-- JavaScript -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true, // whether animation should happen only once - while scrolling down
+      });
+    </script>
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        gsap.from('.gsap-1', {opacity: 0, y: 50, duration: 0.75, ease: 'back'});
+        gsap.from('.gsap-2', {opacity: 0, y: 50, duration: 0.75, delay: 0.25, ease: 'back'});
+    </script>
+    
+</body>
+</html>
