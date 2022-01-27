@@ -44,8 +44,8 @@
                 <a href="index.html"><img src="img/rocket.png" class="w-16" alt="Brand"></a>
             </div>
             <div class="font-bold">
-                <a href="work.html" class="mx-6 text-xl font-sm margin-menu hover:text-indigo-600">Work</a>
-                <a href="hire.html" class="ml-3 text-xl font-sm bg-indigo-600 hover:bg-indigo-800 py-2 px-4 rounded-lg margin-menu">Hire Me</a>
+                <a href="#work" class="mx-6 text-xl font-sm margin-menu hover:text-indigo-600">Work</a>
+                <a href="#hire" class="ml-3 text-xl font-sm bg-indigo-600 hover:bg-indigo-800 py-2 px-4 rounded-lg margin-menu">Hire Me</a>
             </div>
         </div>
     </header>
@@ -53,11 +53,36 @@
     <!-- End Navbar -->
 
     <!-- Start Container -->
-    
+    <div class="c-50 rounded-3xl bg-neutral-800 text-center mx-auto mt-24 py-16">
+        <h1 class="text-5xl font-3xl font-bold text-rose-600">Message Me</h1>
+
+        <form action="" class="mt-16">
+            <div class="">
+                <label for="name" class="block text-lg text-rose-500">Name</label>
+                <div class="mt-1">
+                    <input id="name" name="name" type="text" autocomplete="name" required class="w-6/12 rounded-lg border-rose-300 shadow-sm">
+                </div>
+            </div>
+            <div class="mt-5">
+                <label for="email" class="text-lg text-rose-500">Email</label>
+                <div class="mt-1">
+                    <input id="email" name="email" type="email" autocomplete="email" required class="w-6/12">
+                </div>
+            </div>
+            <div class="mt-5">
+                <label for="message" class="text-lg text-rose-500">How can I help?</label>
+                <div class="mt-1">
+                    <textarea id="message" name="message" class="w-6/12" required></textarea>
+                </div>
+            </div>
+        </form>
+
+    </div>
 
     <!-- End Container -->
 
     <!-- Start Footer -->
+
     <div class="container bg-neutral-800 text-center mx-auto mt-28 py-10">
         <p class="text-sm font-xs">© 2022 Haekal BP. All rights reserved.</p>
     </div>
