@@ -44,8 +44,8 @@
                 <a href="index.html"><img src="img/rocket.png" class="w-16" alt="Brand"></a>
             </div>
             <div class="font-bold">
-                <a href="#work" class="mx-6 text-xl font-sm margin-menu hover:text-indigo-600">Work</a>
-                <a href="#hire" class="ml-3 text-xl font-sm bg-indigo-600 hover:bg-indigo-800 py-2 px-4 rounded-lg margin-menu">Hire Me</a>
+                <a href="work.html" class="mx-6 text-xl font-sm margin-menu hover:text-indigo-600">Work</a>
+                <a href="hire.html" class="ml-3 text-xl font-sm bg-indigo-600 hover:bg-indigo-800 py-2 px-4 rounded-lg margin-menu">Hire Me</a>
             </div>
         </div>
     </header>
@@ -54,26 +54,37 @@
 
     <!-- Start Container -->
     <div class="c-50 rounded-3xl bg-neutral-800 text-center mx-auto mt-24 py-16">
-        <h1 class="text-5xl font-3xl font-bold text-rose-600">Message Me</h1>
+        <h1 class="text-6xl font-3xl font-bold text-rose-600">Message Me</h1>
 
-        <form action="" class="mt-16">
-            <div class="">
-                <label for="name" class="block text-lg text-rose-500">Name</label>
-                <div class="mt-1">
-                    <input id="name" name="name" type="text" autocomplete="name" required class="w-6/12 rounded-lg border-rose-300 shadow-sm">
+        <form id="form" method="POST" action="https://formsubmit.co/9a2bbfa11f0dc7122d2fc23b12a13738" class="mt-20">
+
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://haekalbp.github.io/portfolio/hire.html">
+
+            <div class="mt-8">
+                <label for="name" class="block text-lg text-rose-500 font-bold">Name</label>
+                <div class="mt-2">
+                    <input id="name" name="name" type="text" class="w-6/12 rounded-lg text-neutral-900 shadow-sm focus:border-rose-500 focus:ring-rose-500" required autofocus>
                 </div>
             </div>
-            <div class="mt-5">
-                <label for="email" class="text-lg text-rose-500">Email</label>
-                <div class="mt-1">
-                    <input id="email" name="email" type="email" autocomplete="email" required class="w-6/12">
+            <div class="mt-8">
+                <label for="email" class="block text-lg text-rose-500 font-bold">Email</label>
+                <div class="mt-2">
+                    <input id="email" name="email" type="email" class="w-6/12 rounded-lg text-neutral-900 shadow-sm focus:border-rose-500 focus:ring-rose-500" required>
                 </div>
             </div>
-            <div class="mt-5">
-                <label for="message" class="text-lg text-rose-500">How can I help?</label>
-                <div class="mt-1">
-                    <textarea id="message" name="message" class="w-6/12" required></textarea>
+            <div class="mt-8">
+                <label for="message" class="text-lg text-rose-500 font-bold">How can I help?</label>
+                <div class="mt-2">
+                    <textarea id="message" name="message" class="form-textarea w-6/12 rounded-lg text-neutral-900 shadow-sm focus:border-rose-500 focus:ring-rose-500" required></textarea>
                 </div>
+            </div>
+            <div class="mt-12">
+                <button type="submit" class="bg-rose-600 hover:bg-rose-500 py-1 px-4 rounded-lg uppercase">Submit</button>
             </div>
         </form>
 
@@ -106,6 +117,9 @@
         gsap.from('.gsap-1', {opacity: 0, y: 50, duration: 0.75, ease: 'back'});
         gsap.from('.gsap-2', {opacity: 0, y: 50, duration: 0.75, delay: 0.25, ease: 'back'});
     </script>
+
+    <!-- Form Validation -->
+    <script src="/js/validate.js"></script>
     
 </body>
 </html>
